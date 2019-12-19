@@ -15,13 +15,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+img#nav-avatar{width:100%; filter: contrast(0.8) opacity(0.8);}
+img#nav-avatar:hover{width:100%; filter: contrast(1) opacity(0.8);}
 </style>
 <body class="w3-black">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="images/bw me final.png" style="width:100%;filter: contrast(0.8) opacity(0.8);">
+  <img src="images/bw me final.png" id="nav-avatar">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -155,8 +157,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- End footer -->
   </footer>
 
-<!-- END PAGE CONTENT -->
-</div>
-
+<script src="script.js"></script>
 </body>
 </html>
