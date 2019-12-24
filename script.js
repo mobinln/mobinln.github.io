@@ -1,2 +1,5 @@
-img = document.getElementsByTagName("img")
-document.querySelector("#txtNum").innerHTML = img.length-1;
+AOS.init({
+    offset: 200,
+    delay: 50,
+    once: true
+});
