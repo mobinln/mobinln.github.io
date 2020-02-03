@@ -2,152 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>M O B I N - L A R I J A N I A N</title>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
-    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header class="page-header text-center position-relative banner-section" style="background-image: url(images/jordan-whitt.jpg);">
-        <div class="container">
-            <h1 class="title">Mobin Larijanian</h1>
-            <h3>This is where my story began...</h3>
-        </div>
-    </header>
-
-    <main class="main main-raised">
-        <section class="section text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-10">
-                        <h2 class="title mb-4" data-aos="fade-up">A little about me...</h2>
-                        <p data-aos="fade-up">Hello I'm Mobin Larijanian and this is my official website,
-                            it's nice to see you here. </p>
-                        <p data-aos="fade-up">I built this site to share my photos and maybe my opinions with you, and of course, testing my designing skills :D</p>
-                        <p data-aos="fade-up">I'm a fan of football, classical music and of course literature but to be honest, I really love photography and programming besides these two, I play table tennis too</p>
-                        <p data-aos="fade-up">
-                            I study computer science in AUT with my friends and it's really fun</p>
-                        <p data-aos="fade-up">You can find me on the contact tab.
-                            I'll be glad to see you again :)</p>
-                    </div>
-                </div>
+    <div class="mastCon d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mastH mb-auto">
+            <div class="inner">
+                <h3 class="headT">M O B I N</h3>
+                <nav class="nav headN justify-content-center">
+                    <a href="#" class="nav-link active" id="home">Home</a>
+                    <a href="#" class="nav-link" id="photos">Photos</a>
+                    <a href="#" class="nav-link" id="contact">Contact</a>
+                </nav>
             </div>
-        </section>
-        <section class="section text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-10">
-                        <h2 class="title mb-4" data-aos="fade-up">A litle more...</h2>
-                        <ul class="nav nav-pills nav-pills-rose justify-content-center mt-5" role="tablist">
-                            <li class="nav-item">
-                                <a href="#pro" data-toggle="tab" role="tablist" aria-expanded="true" class="nav-link active">Programming</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#pho" data-toggle="tab" role="tablist" aria-expanded="false" class="nav-link">Photography</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#edu" data-toggle="tab" role="tablist" aria-expanded="false" class="nav-link">Education</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content tab-space pb-0">
-                            <div class="tab-pane active" id="pro" aria-expanded="true">
-                                <p data-aos="fade-up">I started programming from 12 until now and i learned many language and technologies such as C, Java, JS, C#,... and so on</p>
-                                <p data-aos="fade-up">but the most interesting of them is python because of its clearness and simplicity and giving some great data science abilities</p>
-                                <p data-aos="fade-up">I like programming and I'm a fan of Data science and front-end</p>
+        </header>
+
+        <main role="main" class="inner cover">
+            <div class="home">
+                <div id="homeSlide" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h3 class="mb-3 slide-head">A little about me...</h3>
+                            <div class="slideText">
+                                <p>Hello I'm Mobin Larijanian and this is my official website, it's nice to see you here. </p>
+                                <p>I built this site to share my photos and maybe my opinions with you, and of course, testing my designing skills :D</p>
+                                <p>I'm a fan of football, classical music and of course literature but to be honest, I really love photography and programming besides these two, I play table tennis too</p>
+                                <p>I'm studing computer science at AUT with my friends and it's really fun</p>
+                                <p>You can find me on the contact tab. I'll be glad to see you again :)</p>
                             </div>
-                            <div class="tab-pane" id="pho" aria-expanded="false">
-                                <p data-aos="fade-up">I don't know from when and where I found that but just I know i love photography and that it</p>
-                                <p data-aos="fade-up">I remember that when I was around 10 no one let me take a photo with his phone because they think I can't take good pictures
-                                    but now I can attract them with my pictures</p>
-                                <p data-aos="fade-up">I think i'm in the start point of this art and there's a very long way to go
-                                    but I love it</p>
-                                <p data-aos="fade-up">
-                                    and that's enough I think just like programming...</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="mb-3 slide-head">About my Programming...</h3>
+                            <div class="slideText">
+                                <p>I started programming from 12 until now and i learned many language and technologies such as C, Java, JS, C#,... and so on</p>
+                                <p>but the most interesting of them is python because of its clearness and simplicity and giving some great data science abilities</p>
+                                <p>I like programming and I'm a fan of Data science and front-end</p>
                             </div>
-                            <div class="tab-pane" id="edu" aria-expanded="false">
-                                <p data-aos="fade-up">I'm studying computer science in one of the best universities in iran
-                                    <i>it's name is AmirKabir university of technology</i>
-                                    and from my childhood, I love computer and still have and I think I will 
-                                    have this filling throw my life</p>
-                                <p data-aos="fade-up">
-                                    I'm a fan of math and its sub lessons such as discrete mathematics
-                                    and of course, as I said before, programming and anything that related
-                                    to computers
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="mb-3 slide-head">About my Photography...</h3>
+                            <div class="slideText">
+                                <p>I don't know from when and where I found that but just I know i love photography and that it</p>
+                                <p>I remember that when I was around 10 no one let me take a photo with his phone because they think I can't take good pictures but now I can attract them with my pictures</p>
+                                <p>I think i'm in the start point of this art and there's a very long way to go but I love it</p>
+                                <p>and that's enough I think just like programming...</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="mb-3 slide-head">About my Education...</h3>
+                            <div class="slideText">
+                                <p>I'm studying computer science in one of the best universities in iran it's name is AmirKabir university of technology and from my childhood, I love computer and still have and I think I will have this filling throw my life.</p>
+                                <p>
+                                    I'm a fan of math and its sub lessons such as discrete mathematics and of course, as I said before, programming and anything that related to computers.
                                 </p>
                             </div>
                         </div>
+                        <a class="carousel-control-prev" href="#homeSlide" role="button" data-slide="prev">
+                          <span class="mr-4 carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#homeSlide" role="button" data-slide="next">
+                          <span class="ml-4 carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section text-center">
-            <div class="container">
-                <h2 class="title mb-4" data-aos="fade-up">A number of my photos...</h2>
-                <div class="card-columns text-white">
-                    <div class="card bg-dark" data-aos="fade-right">
-                        <img src="images/13.jpg" alt="ee" class="card-img">
+            <div class="photos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/img (1).JPG" alt="mobin Larijanian" class="img-fluid" />
+                            <img src="images/img (23).jpg" alt="mobin Larijanian" class="img-fluid" /> 
+                            <img src="images/img (22).jpg" alt="mobin Larijanian" class="img-fluid" />
+                        </div>
+                        <div class="col">
+                            <img src="images/img (20).JPG" alt="mobin Larijanian" class="img-fluid" />
+                            <img src="images/img (17).JPG" alt="mobin Larijanian" class="img-fluid" /> 
+                            <img src="images/img (21).jpg" alt="mobin Larijanian" class="img-fluid" />
+                        </div>
                     </div>
-                    <div class="card bg-dark" data-aos="fade-right">
-                        <img src="images/12.jpg" alt="ee" class="card-img">
-                    </div>
-                    <div class="card bg-dark" data-aos="fade-right">
-                        <img src="images/1.JPG" alt="ee" class="card-img">
-                    </div>
-                    <div class="card bg-dark" data-aos="fade-left">
-                        <img src="images/2.jpeg" alt="ee" class="card-img">
-                    </div>
-                    <div class="card bg-dark" data-aos="fade-left">
-                        <img src="images/3.JPG" alt="ee" class="card-img">
-                    </div>
-                    <div class="card bg-dark" data-aos="fade-left">
-                        <img src="images/5.JPG" alt="ee" class="card-img">
-                    </div>
-                </div>
-                <div class="justify-content-center">
-                    <a href="photos.html" class="btn btn-round btn-rose" role="button"><strong>More...</strong></a>
-                </div>
+                </div> 
             </div>
-        </section>
-        <section>
-            <div class="container">
-                <h2 class="title text-center mb-4" data-aos="fade-up">Contact</h2>
+            <div class="contact">
+                <p><span class="fa fa-home"></span> <span class="pl-2">Tehran IR</span></p>
+                <p><span class="fa fa-university"></span> <span class="pl-2"><a href="https://aut.ac.ir/" class="text-decoration-none footLink">AUT Amirkabir University of Technology</a></span></p>
+                <p><span class="fa fa-envelope"></span> <span class="pl-2">mnlarijanian@gmail.com</span></p>
                 <hr>
-                <div data-aos="fade-right" class="pb-5">
-                    <p><span class="material-icons">location_city</span> <span class="pl-2">Tehran IR</span></p>
-                    <p><span class="material-icons">school</span> <span class="pl-2"><a href="https://aut.ac.ir/">AUT Amirkabir University of Technology</a></span></p>
-                    <p><span class="material-icons">email</span> <span class="pl-2">mnlarijanian@gmail.com</span></p>
-                    <hr>
-                    <a href="https://www.instagram.com/mnlarijanian" class="mr-2"><span class="fa fa-instagram"></span></a>
-                    <a href="https://twitter.com/0Larijanian" class="mr-2"><span class="fa fa-twitter"></span></a>
-                    <a href="https://www.linkedin.com/in/seyed-mobin-larijanian-a108b1193" class="mr-2"><span class="fa fa-linkedin"></span></a>
-                    <a href="https://github.com/mobinln" class="mr-2"><span class="fa fa-github"></span></a>
-                </div>
+                <a href="https://www.instagram.com/mnlarijanian" class="text-decoration-none footLink mr-2"><span class="fa fa-instagram"></span></a>
+                <a href="https://twitter.com/0Larijanian" class="text-decoration-none footLink mr-2"><span class="fa fa-twitter"></span></a>
+                <a href="https://www.linkedin.com/in/seyed-mobin-larijanian-a108b1193" class="text-decoration-none footLink mr-2"><span class="fa fa-linkedin"></span></a>
+                <a href="https://github.com/mobinln" class="text-decoration-none footLink mr-2"><span class="fa fa-github"></span></a>
             </div>
-        </section>
-    </main>
-    <br>
-    <br>
-    <footer class="py-4 page-footer">
-        <div class="container text-center">
-            <div class="row justify-content-between">
-                <div class="col-auto">Header Photo from <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></div>
-                <div class="col-auto">
-                    <small>Made with <span>❤</span> by Mobin larijanian</small>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/bootstrap-material-design.min.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <footer class="foot mt-auto">
+            <p>Created with ❤ by <a href="https://www.instagram.com/mnlarijanian/?hl=en" class="text-decoration-none footLink">mobin</a></p>
+        </footer>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
