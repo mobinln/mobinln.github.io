@@ -10,6 +10,11 @@
 ::-webkit-scrollbar-thumb:hover{
   background-color: #555;
 }
+div.photos{
+  overflow-y: auto;
+  max-height: 36rem;
+}
+
 @media (min-width: 48em){
   .headT{
     float: left;
@@ -84,8 +89,4 @@ body{
     background-color: rgba(0, 0, 0, 0.15);
     padding: 4rem;
   }
-}
-div.photos{
-  overflow-y: auto;
-  max-height: 36rem;
 }
