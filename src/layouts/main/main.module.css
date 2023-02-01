@@ -61,3 +61,23 @@
   margin-left: 4px;
   font-family: Dancing_Script;
 }
+
+.card header div{
+  display: flex;
+  align-items: center;
+}
+
+.card header div svg{
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    background-color: transparent;
+  }
+  .card footer p{
+    margin-bottom: 2em;
+  }
+}

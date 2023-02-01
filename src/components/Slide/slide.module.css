@@ -1,0 +1,32 @@
+.slide {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5em;
+  text-align: center;
+  line-height: 2;
+}
+
+.slide h3 {
+  font-family: Dancing_Script;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .slide{
+        padding: 0;
+    }
+    .slide h3 {
+        font-size: 2rem;
+    }
+}
+
+.slide img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 8px 0;
+    border-radius: 8px;
+}
