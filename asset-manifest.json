@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5a36149.css",
+    "main.js": "/static/js/main.7ab9a997.js",
+    "static/js/787.8246fdd7.chunk.js": "/static/js/787.8246fdd7.chunk.js",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.3f7c141215e6d22d0f1e.ttf",
+    "static/media/cat_black_white.jpg": "/static/media/cat_black_white.ece826a20dbd7f52d2c3.jpg",
+    "static/media/leaf_fall.jpg": "/static/media/leaf_fall.5a8904866775c17a5081.jpg",
+    "static/media/lahijan_1.jpg": "/static/media/lahijan_1.910ea5057cd67cf6698c.jpg",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/DancingScript-VariableFont_wght.ttf": "/static/media/DancingScript-VariableFont_wght.3e7e73f4e34e4945f363.ttf",
+    "static/media/lahijan_2.jpg": "/static/media/lahijan_2.0e140b330a6acbe746a9.jpg",
+    "index.html": "/index.html",
+    "main.a5a36149.css.map": "/static/css/main.a5a36149.css.map",
+    "main.7ab9a997.js.map": "/static/js/main.7ab9a997.js.map",
+    "787.8246fdd7.chunk.js.map": "/static/js/787.8246fdd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5a36149.css",
+    "static/js/main.7ab9a997.js"
+  ]
+}
