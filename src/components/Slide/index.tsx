@@ -1,9 +1,7 @@
 import { ReactNode } from "react";
 import classes from "./slide.module.css";
 
-import img from "assets/images/leaf_fall.jpg";
-
-export default function Slide({ children, title }: { title: string; children: ReactNode }) {
+export default function Slide({ children, title, img }: { title: string; children: ReactNode; img: string }) {
   return (
     <div className={classes.slide}>
       <h3>{title}</h3>

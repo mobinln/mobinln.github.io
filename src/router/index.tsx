@@ -1,10 +1,13 @@
-import { useLocation, useRoutes } from "react-router-dom";
-import MainLayout from "layouts/main";
-
-import Index from "pages/me";
-import { AnimatePresence } from "framer-motion";
-import PageAnimation from "components/PageAnimation";
 import React from "react";
+import { useLocation, useRoutes } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+
+import MainLayout from "layouts/main";
+import PageAnimation from "components/PageAnimation";
+
+import Me from "pages/me";
+import Contact from "pages/contact";
+import Portfolio from "pages/portfolio";
 
 export default function Router() {
   const location = useLocation();
@@ -17,7 +20,7 @@ export default function Router() {
           index: true,
           element: (
             <PageAnimation>
-              <Index />
+              <Me />
             </PageAnimation>
           ),
         },
@@ -25,7 +28,7 @@ export default function Router() {
           path: "portfolio",
           element: (
             <PageAnimation>
-              <div>Portfolio</div>
+              <Portfolio />
             </PageAnimation>
           ),
         },
@@ -33,7 +36,7 @@ export default function Router() {
           path: "contact",
           element: (
             <PageAnimation>
-              <div>Contact</div>
+              <Contact />
             </PageAnimation>
           ),
         },

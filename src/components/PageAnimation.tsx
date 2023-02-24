@@ -14,7 +14,7 @@ const pageVariants = {
 
 export default function PageAnimation({ children }: { children: ReactNode }) {
   return (
-    <motion.div initial="out" animate="in" exit="out" variants={pageVariants}>
+    <motion.div initial="out" animate="in" exit="out" variants={pageVariants} style={{ display: "flex" }}>
       {children}
     </motion.div>
   );

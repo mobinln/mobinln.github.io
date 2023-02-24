@@ -18,7 +18,9 @@
     "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-p,h3{
+p,
+h3,
+h5 {
   margin: 0;
   padding: 0;
 }
@@ -45,6 +47,6 @@ body {
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body.modal-open{
+body.modal-open {
   overflow: hidden;
 }
